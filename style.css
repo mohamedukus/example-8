@@ -1,0 +1,82 @@
+html {box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+  border: 2px solid #333333;
+}
+* {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+header,
+footer {
+  background-color: #0f1629;
+  padding: 40px 0;
+}
+
+.img1 {
+  width: 100%;
+  margin: 30px 0;
+}
+aside, .parent{
+   
+    height: 700px;
+     
+}
+aside{
+    width: 30%;
+    float: left;
+    background-color: rgb(65, 44, 99);
+    margin-bottom: 20px;
+}
+.parent{
+    width: 70%;
+    float: right;
+  
+}
+
+
+
+ 
+main{
+    height: 40%;
+    background-color: #333333;
+}
+
+.banner{
+    height: 20%;
+    background-color: rgb(250, 94, 37);
+}
+
+.container{
+    height: 40%;
+}
+.ad{
+    background-color: seagreen;
+    width: 30%;
+    float: right;
+    height: 100%;
+}
+
+.img2{
+    width: 70%;
+    float: left;
+    height: 100%;
+
+}
+
+footer{
+ 
+clear: both;
+}
